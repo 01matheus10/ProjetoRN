@@ -10,9 +10,9 @@ function DrawerPersonalizado(props) {
             <View style={estiloRotasDrawer.fotoContainer}>
                 <Image
                 style={estiloRotasDrawer.foto}
-                source={require('../../../assets/imagens/img.jpg')}
+                source={require('../../../assets/imagens/perfil.jpg')}
                 />
-                <Text style={estiloRotasDrawer.nome}>Administrador</Text>
+                <Text style={estiloRotasDrawer.nome}>Administradores</Text>
             </View>
             <DrawerItemList {...props} />
         </DrawerContentScrollView>

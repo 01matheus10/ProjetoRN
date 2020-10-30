@@ -29,7 +29,7 @@ function Login({ navigation }) {
         <View style={estiloLogin.container}>
             <View style={estiloLogin.borda}>
 
-            <ImageBackground source={require('../../../assets/imagens/img.jpg')} style={estiloLogin.fundo}>
+            <ImageBackground source={require('../../../assets/imagens/background.jpg')} style={estiloLogin.fundo}>
 
             <View style={estiloLogin.logoContainer}>
                 <LinearGradient colors={['#4c669f', '#3b5998', '#081a31']} style={estiloLogin.logo}>

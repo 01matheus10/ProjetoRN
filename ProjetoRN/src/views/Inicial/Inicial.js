@@ -18,8 +18,8 @@ function Inicial({ navigation }) {
         navigation.navigate('Colecao')
     }
     
-    const abrirItem = () => {
-        navigation.navigate('Item')
+    const abrirPerfil = () => {
+        navigation.navigate('Perfil')
     }
 
     return (
@@ -29,15 +29,15 @@ function Inicial({ navigation }) {
                     <AntDesign name='menu-fold' size={24} color='white' />
                 </TouchableOpacity>
             </View>
-            <ImageBackground source={require('../../../assets/imagens/img.jpg')} style={estiloInicial.fundo}>
+            <ImageBackground source={require('../../../assets/imagens/background.jpg')} style={estiloInicial.fundo}>
                     <TouchableOpacity onPress={abrirColecao}>
-                    <ImageBackground source={require('../../../assets/imagens/img.jpg')} style={estiloInicial.botaoBackground}>
+                    <ImageBackground source={require('../../../assets/imagens/btncolecao.jpg')} style={estiloInicial.botaoBackground}>
                         <Text style={estiloInicial.botaoTexto}>Coleção</Text>
                     </ImageBackground>
                     </TouchableOpacity>
-                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirItem}>
-                    <ImageBackground source={require('../../../assets/imagens/img.jpg')} style={estiloInicial.botaoBackground}>
-                    <Text style={estiloInicial.botaoTexto}>Item</Text>
+                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirPerfil}>
+                    <ImageBackground source={require('../../../assets/imagens/btnperfil.jpg')} style={estiloInicial.botaoBackground}>
+                    <Text style={estiloInicial.botaoTexto}>Perfil</Text>
                     </ImageBackground>
                 </TouchableOpacity>
             </ImageBackground>

@@ -9,7 +9,7 @@ const estiloPerfil = StyleSheet.create({
    borda: {   
       backgroundColor: '#081a31',  
       width: '80%',
-      height: '25%',
+      height: '70%',
       borderRadius: 10,
    },
    texto: {
@@ -37,6 +37,24 @@ const estiloPerfil = StyleSheet.create({
       color: '#FFFFFF',
       fontWeight: 'bold'
    },
+      fotoContainer: {
+        width: '100%',
+        height: 150,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 15,
+    },
+      foto: {
+        width: 100,
+        height: 100,
+        borderRadius: 50,
+    },
+      nome: {
+        color: '#000000',
+        fontSize: 18,
+        marginTop: 5,
+        marginBottom: 25,
+    },
 });
 
   export default estiloPerfil;
